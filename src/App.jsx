@@ -1,12 +1,13 @@
 import './assets/styles/global/index.css'
-import Navbar from './components/common/Navbar'
+import Navbar from './components/00-common/Navbar'
+import HomePage from './pages/HomePage'
 
 function App() {
 
   return (
     <div className='global-wrapper'>
         <Navbar />
-        {/* <div style={{ height: "2000px", background: "white", color: "blue" }}>TEST</div> */}
+        <HomePage />
     </div>
   )
 }
