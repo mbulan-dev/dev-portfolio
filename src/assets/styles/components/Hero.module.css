@@ -77,8 +77,65 @@
 
 /* HERO ACTIONS */
 .heroActions{
-  margin-top: 2rem;   /* space above */
+  margin-top: 2rem;   
   display: flex;
-  flex-direction: column; /* or row depending on your layout */
+  flex-direction: row;
   gap: 1.5rem;  
+}
+
+
+/* SOCIALS */
+.sideWrapper{
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;  
+  align-items: center;      
+  gap: 10px; 
+  cursor: pointer;
+  margin-left: 1.5rem;
+}
+
+.icons{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 10px 0;
+  text-decoration: none;
+  text-align:center;
+  font-size:16px;
+  border-radius:50px;
+  width:40px;
+  height:40px;
+  border: solid #E1065E 2px;
+  background-color: none;
+  cursor: pointer;
+
+  & a{
+      color: #E1065E;
+  }
+}
+
+/* MOBILE */
+@media(max-width: 768px){
+  .heroContainer{
+    & h1{
+      font-size: 3rem;
+      font-weight: bold;
+      color: #f2f2f2;
+    }
+
+    .titleDesc{
+        font-size: 32px;
+        color: #f2f2f2;
+    }
+
+    .heroActions{
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .sideWrapper{
+      margin-left: 0;
+    }
+  }
 }
