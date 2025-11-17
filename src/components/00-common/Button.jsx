@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-scroll'
 import styles from '../../assets/styles/components/Button.module.css'
 

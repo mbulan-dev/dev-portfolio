@@ -1,10 +1,8 @@
-import React from 'react'
-import { Link } from 'react-scroll' 
 import { Typewriter } from 'react-simple-typewriter'
-import styles from '../../assets/styles/components/Hero.module.css'
 import buttonStyles from '../../assets/styles/components/Button.module.css'
-import HeroScroll from './HeroScroll'
+import styles from '../../assets/styles/components/Hero.module.css'
 import Button from '../00-common/Button'
+import HeroScroll from './HeroScroll'
 import HeroSocials from './HeroSocials'
 
 const HeroIntro = () => {
