@@ -5,6 +5,7 @@ import styles from '../../assets/styles/components/Hero.module.css'
 import buttonStyles from '../../assets/styles/components/Button.module.css'
 import HeroScroll from './HeroScroll'
 import Button from '../00-common/Button'
+import HeroSocials from './HeroSocials'
 
 const HeroIntro = () => {
   return (
@@ -30,9 +31,9 @@ const HeroIntro = () => {
               fSize={21}
               textBtn="View Works"
             />
-
-            <HeroScroll />
+            <HeroSocials />
           </div>    
+            <HeroScroll />
         </div>
         
     </div>
