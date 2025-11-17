@@ -1,5 +1,5 @@
-import { FiGithub, FiLinkedin, FiCodepen, FiDribbble } from "react-icons/fi";
-import styles from '../../assets/styles/components/Hero.module.css'
+import { FiCodepen, FiDribbble, FiGithub, FiLinkedin } from "react-icons/fi";
+import styles from '../../assets/styles/components/Hero.module.css';
 
 const HeroSocials = () => {
  
