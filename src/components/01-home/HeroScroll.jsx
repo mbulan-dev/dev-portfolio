@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from '../../assets/styles/components/Hero.module.css'
 
 const HeroScroll = () => {
