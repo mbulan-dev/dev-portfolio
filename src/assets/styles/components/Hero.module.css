@@ -39,13 +39,13 @@
 
 /* SCROLL INDICATOR */
 .scroll{
-    margin: 5rem 0 1rem 1rem;    
+  margin: 5rem 0 1rem 1rem;    
 }
 
 .scroll span{
-    width: 20px;
+  width: 20px;
 	height: 20px;
-    display: block;
+  display: block;
 	border-right: 2px solid #f5f5f5;
 	border-bottom: 2px solid #f5f5f5;
 	transform: rotate(45deg);
@@ -112,6 +112,10 @@
 
   & a{
       color: #E1065E;
+  }
+
+  &:hover a{
+    color: #f5f5f5;
   }
 }
 
