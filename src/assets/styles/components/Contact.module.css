@@ -1,0 +1,108 @@
+.contactWrapper{
+    width: 100%;
+    height: auto;
+}
+
+.contactContainer{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title{
+    font-size: 3.5rem;
+    color: #E1065E;
+    margin: 2rem 0;
+}
+
+.contactContent{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap;
+
+    & span{
+        color: #E1065E;
+    }
+}
+
+.contactLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    & h1{
+        font-size: 2.5rem;
+        color: #f2f2f2;
+    }
+}
+
+.contactRight{
+    & h1{
+        font-size: 2rem;
+        color: #f2f2f2;
+    }
+}
+
+.contactLeft, .contactRight{
+  flex: 1 1 300px; 
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;      
+    max-width: 500px;
+}
+
+input,
+textarea{
+  width: 100%;       
+  background: none;
+  color: #FFF;
+  font-weight: bold;
+  padding: 1em;
+  font-size: 1rem;
+  border: 2px solid #FFF;
+  margin: 0.76em 0;
+}
+
+input:hover,
+textarea:hover{
+  border-color: #E1065E;
+}
+
+textarea{
+  height: 300px;
+  resize: none;
+}
+
+
+
+/* ICONS */
+.horizontalCard{
+    display: flex;
+    align-items: center;
+    gap: 1rem; 
+    margin: 1.5rem 0;
+
+    & p{
+        color: #f2f2f2;
+        font-size: 1.2rem;
+    }
+ 
+}
+
+.horIcon{
+  width: 2.5rem;
+  height: 2.5rem;
+  color: #E1065E;
+  display: flex;         
+  align-items: center;    
+  justify-content: center;
+  font-size: 1.5rem;     
+}
